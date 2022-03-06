@@ -1,3 +1,7 @@
+/*Fonte*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+
+/*CSS Geral*/
 *{
     margin: 0;
     padding: 0;
@@ -5,3 +9,28 @@
     font-family: 'Poppins', sans-serif;
 }
 
+:root{
+    --clr: #222327;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: var(--clr);
+}
+.navegacao{
+    position: relative;
+    width: 400px;
+    height: 70px;
+    display: flex;
+    background: #fff;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.navegacao ul{
+    display: flex;
+    width: 350px;
+}
