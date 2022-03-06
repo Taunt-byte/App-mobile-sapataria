@@ -58,7 +58,7 @@ body{
     line-height: 75px;
     font-size: 1.5em;
     text-align: center;
-    transition: 0.5;
+    transition: 0.5s;
     color: var(--clr);
 }
 .navegacao ul li.active a .icon{
@@ -81,10 +81,10 @@ body{
 }
 .indicador{
     position: absolute;
-    top: -50;
+    top: -50%;
     width: 70px;
     height: 70px;
-    background-color: rgb(28, 28, 224);
+    background-color: rgb(226, 21, 21);
     border-radius: 50%;
     border: 6px solid var(--clr);
     transition: 0.5s;
