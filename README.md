@@ -1,6 +1,7 @@
-# WebSite-Navbar-interativa
- Website com navbar interativa
+# Navbar Diferenciada
 
-## Tive uma ideia
+Status: Em desenvolvimento
 
-Esses é mais um daqueles projetos em que eu tive uma ideia é basicamente um NavBar que muda o jeito que o site é
+## usado
+
+https://ionic.io/ionicons/usage
