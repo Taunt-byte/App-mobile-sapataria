@@ -26,7 +26,7 @@ body{
     width: 400px;
     height: 70px;
     display: flex;
-    background: #fff;
+    background: rgb(255, 251, 251);
     justify-content: center;
     align-items: center;
     border-radius: 10px;
@@ -56,12 +56,58 @@ body{
     position: relative;
     display: block;
     line-height: 75px;
-    font-size: 1,5em;
+    font-size: 1.5em;
     text-align: center;
-    transition: 0,5;
+    transition: 0.5;
     color: var(--clr);
 }
-.navegacao ul li:hover a .icon{
-    transform: translate(50px);
-    
+.navegacao ul li.active a .icon{
+    transform: translateY(-32px);
+
+}
+.navegacao ul li a .text{
+    position: absolute;
+    color: var(--clr);
+    font-weight: 400;
+    font-size: 0.75em;
+    letter-spacing: 0.05em;
+    transition: 0.5s;
+    opacity: 0;
+    transform: translateY(20px);
+}
+.navegacao ul li.active a .text{
+    opacity: 1;
+    transform: translateY(10px);
+}
+.indicador{
+    position: absolute;
+    top: -50;
+    width: 70px;
+    height: 70px;
+    background-color: rgb(28, 28, 224);
+    border-radius: 50%;
+    border: 6px solid var(--clr);
+    transition: 0.5s;
+}
+.indicador::before{
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: -22px;
+    width: 20px;
+    height: 20px;
+    background: transparent;
+    border-top-right-radius: 20px;
+    box-shadow: 0px -10px 0 0 var(--clr);
+}
+.indicador::after{
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: -22px;
+    width: 20px;
+    height: 20px;
+    background: transparent;
+    border-top-left-radius: 20px;
+    box-shadow: 0px -10px 0 0 var(--clr);
 }
