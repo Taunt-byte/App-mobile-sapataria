@@ -4,3 +4,5 @@ function activeLink(){
     item.classList.remove('active'));
     this.classList.add('active');
 }
+lista.forEach((item)=>
+item.addEventeListener('click',activeLink));

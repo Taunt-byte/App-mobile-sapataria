@@ -98,7 +98,7 @@ body{
     height: 20px;
     background: transparent;
     border-top-right-radius: 20px;
-    box-shadow: 0px -10px 0 0 var(--clr);
+    box-shadow: 1px -10px 0 0 var(--clr);
 }
 .indicador::after{
     content: '';
@@ -109,5 +109,21 @@ body{
     height: 20px;
     background: transparent;
     border-top-left-radius: 20px;
-    box-shadow: 0px -10px 0 0 var(--clr);
+    box-shadow: -1px -10px 0 0 var(--clr);
+}
+
+.navegacao ul li:nth-child(1).active ~ .indicador{
+    transform: translateX(calc(70px * 0));
+}
+.navegacao ul li:nth-child(2).active ~ .indicador{
+    transform: translateX(calc(70px * 1));
+}
+.navegacao ul li:nth-child(3).active ~ .indicador{
+    transform: translateX(calc(70px * 2));
+}
+.navegacao ul li:nth-child(4).active ~ .indicador{
+    transform: translateX(calc(70px * 3));
+}
+.navegacao ul li:nth-child(5).active ~ .indicador{
+    transform: translateX(calc(70px * 4));
 }
