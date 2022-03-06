@@ -62,5 +62,6 @@ body{
     color: var(--clr);
 }
 .navegacao ul li:hover a .icon{
-    transform: translate();
+    transform: translate(50px);
+    
 }
