@@ -20,6 +20,7 @@ body{
     min-height: 100vh;
     background: var(--clr);
 }
+/*Parte da NavBar*/
 .navegacao{
     position: relative;
     width: 400px;
@@ -33,4 +34,33 @@ body{
 .navegacao ul{
     display: flex;
     width: 350px;
+}
+.navegacao ul li{
+    position: relative;
+    list-style: none;
+    width: 70px;
+    height: 70px;
+    z-index: 1;
+}
+.navegacao ul li a{
+    position: relative;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    font-weight: 500;
+}
+.navegacao ul li a .icon{
+    position: relative;
+    display: block;
+    line-height: 75px;
+    font-size: 1,5em;
+    text-align: center;
+    transition: 0,5;
+    color: var(--clr);
+}
+.navegacao ul li:hover a .icon{
+    transform: translate();
 }
