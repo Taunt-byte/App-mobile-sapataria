@@ -1,13 +1,15 @@
-# Navbar Diferenciada
+# App de sapataria com React Native
 
 Status: Em desenvolvimento
 
-## usado
+# Install
 
-https://ionic.io/ionicons/usage
+Codigo para instalação e iniciação do projeto
 
-## Bugs que ocorrem no momento 
+    cd App-sapataria
 
-+ Por algum motivo a navbar se encontra com bug em sua animação de troca de aba
+Depois
 
-<img src="img/exDeBug.jpeg">
+    npm start
+
+<i>E GG</i>
