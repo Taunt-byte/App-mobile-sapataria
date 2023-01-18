@@ -2,16 +2,16 @@
 
 Status: Em desenvolvimento
 
-# Install
+# Como Criar um app React basico
 
-Codigo para instalação e iniciação do projeto
+Codigo para instalação do React.
 
-    cd App-sapataria
-
-Depois
-
+    npx create-react-app my-app
+    cd my-app
     npm start
 
-<i>E GG</i>
+<i>Bem simples!!!</i>
 
-## eas
+## Sobre o projeto
+
+É uma aplicação para uma loja de sapatos que faz reparos e vende sapatos.
