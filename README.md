@@ -1,17 +1,69 @@
 # App de sapataria com React Native
 
-Status: Em desenvolvimento
+Aplicação mobile para uma loja de sapatos e tenis.
 
-# Como Criar um app React basico
+## Funcionalidades
 
-Codigo para instalação do React.
+- Catálogo de produtos
+- Pesquisa de produtos
+- Carrinho de compras
+- Checkout
+- Histórico de compras
+- Notificações
+- Opções de entrega
+- Suporte ao cliente
+- Programa de fidelidade
+- Personalização
 
-    npx create-react-app my-app
-    cd my-app
-    npm start
 
-<i>Bem simples!!!</i>
+## Instalação
 
-## Sobre o projeto
+Instale as dependências com npm
 
-É uma aplicação para uma loja de sapatos que faz reparos e vende sapatos.
+```bash
+  cd app
+  npm i
+```
+    
+## Variáveis de Ambiente
+
+Para rodar esse projeto, você vai precisar adicionar as seguintes variáveis de ambiente no seu .env
+
+`API_KEY`
+
+`ANOTHER_API_KEY`
+
+
+## Rodando localmente
+
+Clone o projeto
+
+```bash
+  git clone https://link-para-o-projeto
+```
+
+Entre no diretório do projeto
+
+```bash
+  cd my-project
+```
+
+Instale as dependências
+
+```bash
+  npm install
+```
+
+Inicie o servidor
+
+```bash
+  npm run start
+```
+
+
+## Referência
+
+ - [Awesome Readme Templates](https://awesomeopensource.com/project/elangosundar/awesome-README-templates)
+ - [Awesome README](https://github.com/matiassingers/awesome-readme)
+ - [How to write a Good readme](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
+
